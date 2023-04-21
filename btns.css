@@ -1,0 +1,66 @@
+--------------------------------------------------
+__PRIMARY__
+.btn-primary,
+.btn-P {
+    background-color: #0d6efd;
+    color: #fff;
+    /* border-color: #fff; */
+    box-shadow: 0 0 0 0.25rem #0d6efd;
+}
+
+.btn-primary:hover,
+.btn-P:hover {
+    background-color: #fff;
+    color: #0d6efd;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem #eee;
+}
+
+.btn-outline-primary,
+.btn-OP {
+    background-color: #fff;
+    color: #0d6efd;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem #fff;
+}
+
+.btn-outline-primary:hover,
+.btn-OP:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 0 0.25rem #0d6efd;
+}
+--------------------------------------------------
+__SUCCESS__
+.btn-success,
+.btn-S {
+    background-color: #04AA6D;
+    color: #fff;
+    /* border-color: #fff; */
+    box-shadow: 0 0 0 0.25rem #04AA6D;
+}
+
+.btn-success:hover,
+.btn-S:hover {
+    background-color: #fff;
+    color: #04AA6D;
+    border-color: #04AA6D;
+    box-shadow: 0 0 0 0.25rem #eee;
+}
+
+.btn-outline-success,
+.btn-OS {
+    background-color: #fff;
+    color: #04AA6D;
+    border-color: #04AA6D;
+    box-shadow: 0 0 0 0.25rem #fff;
+}
+
+.btn-outline-success:hover,
+.btn-OS:hover {
+    background-color: #04AA6D;
+    color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 0 0.25rem #04AA6D;
+}
