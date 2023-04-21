@@ -1,4 +1,3 @@
-function snackbar() {
 (document.querySelectorAll("style[cssfor='snackbar']").length===0)?document.querySelector('head').innerHTML+=`
 <style cssfor="snackbar">
 [item='snackbar'] {
@@ -44,6 +43,7 @@ function snackbar() {
 }
 </style>
 `:false;
+function snackbar() {
   var x = document.querySelector("[item='snackbar']");
   x.className = "show";
   setTimeout(()=>{x.className = x.className.replace("show", "")}, 3000);
