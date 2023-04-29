@@ -19,7 +19,7 @@ else if (x==='a:') return $date[0]+':'+$date[1]+':'+$date[2]+':'+$date[3]+":"+$d
 else if (x==='a:') return $date[0]+','+$date[1]+','+$date[2]+','+$date[3]+","+$date[4]+","+$date[5]+","+$date[6]+","+$date[7];
 else {
     if (typeof(x)!=='number' && typeof(x)!=='string'){
-        console.warn('Use "String" as parameter of date function.')
+        console.warn('Use "String" as the parameter of date function.')
     }else if (/^([0-8]|y|m|dt|d|h|mi|s|ms){1}$/.test(x)===false){
         console.warn('Use "[0-8]|y|m|dt|d|h|mi|s|ms". Only one of these flags are allowed as 1st parameter.');
     }else console.error('Something went wrong! There an error while excuting the date function.');
